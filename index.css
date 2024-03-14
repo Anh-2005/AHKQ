@@ -42,7 +42,7 @@ body {
     color: #000000;
 }
 
-.navbar a {
+.index a {
     color: #000000;
     margin: 0px 20px;
     position: relative;
@@ -50,7 +50,7 @@ body {
     font-weight: 500;
 }
 
-.navbar a::before {
+.index a::before {
     content: "";
     position: absolute;
     bottom: -4px;
@@ -61,7 +61,7 @@ body {
     transition: .3s;
 }
 
-.navbar a:hover::before {
+.index a:hover::before {
     width: 100%;
 }
 
